@@ -1,0 +1,123 @@
+
+<ion-slide-box does-continue="true" auto-play="true" slide-interval=2000>
+  <ion-slide ng-repeat="item in data track by $index" class="picture">
+    <img ng-src="{{item.img}}">
+  </ion-slide>
+</ion-slide-box>
+
+<div class="row padding-horizontal text-center">
+	<div class="col col-20" ng-repeat="item in list track by $index">
+		<img class="full-image" ng-src="{{item.img}}">
+		<span>{{item.text}}</span>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col col-33 left">
+		<div class="pic">
+			<img ng-src="{{title.img}}">
+			<span>{{title.t}}</span>
+		</div>
+		
+	</div>
+	<div class="col col-33 col-offset-33 right">
+		<div class="pic">
+			<span>{{title.text}}</span>
+			<img ng-src="{{title.picture}}">
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col col-50">
+		<img class="full-image" ng-src="{{datalist[0]}}">
+	</div>
+	<div class="col col-25">
+		<img class="full-image" ng-src="{{datalist[1]}}">
+	</div>
+	<div class="col col-25">
+		<img class="full-image" ng-src="{{datalist[2]}}">
+	</div>
+</div>
+
+<div class="row">
+	<div class="col col-33 left">
+		<div class="pic">
+			<img ng-src="{{title.img}}">
+			<span>{{title.content}}</span>
+		</div>
+		
+	</div>
+	<div class="col col-33 col-offset-33 right">
+		<div class="pic">
+			<span>{{title.text}}</span>
+			<img ng-src="{{title.picture}}">
+		</div>
+	</div>
+</div>
+
+
+<div class="row si">
+	<div class="col col-33" ng-repeat="item in datalisttwo track by $index">
+		<img class="full-image" ng-src="{{item.img}}">
+		<p>{{item.text}}</p>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col col-33 left">
+		<div class="pic">
+			<img ng-src="{{title.image}}">
+			<span>{{title.d}}</span>
+		</div>
+		
+	</div>
+	<div class="col col-33 col-offset-33 right">
+		<div class="pic">
+			<span>{{title.text}}</span>
+			<img ng-src="{{title.picture}}">
+		</div>
+	</div>
+</div>
+
+<div class="row good">
+	<div class="col col-50" ng-repeat="item in good track by $index">
+		<p>{{item.text}}</p>
+		<p>{{item.t}}</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col col-25" ng-repeat="item in lie track by $index">
+		<img class="full-image" ng-src="{{item}}">
+	</div>
+</div>
+
+<div class="row">
+	<div class="col col-25" ng-repeat="item in lietwo track by $index">
+		<img class="full-image" ng-src="{{item}}">
+	</div>
+</div>
+
+<p class="bagtitle"><img ng-src="{{p[0]}}"></p>
+
+<div class="row keep">
+	<div class="col col-50" ng-repeat="item in footer track by $index">
+		<img class="full-image" ng-src="{{item.img}}">
+		<p>{{item.text}}</p>
+		<span>{{item.content}}</span>
+		<span>{{item.end}}</span>
+	</div>
+</div>
+
+<div class="row keep">
+	<div class="col col-50" ng-repeat="item in foot track by $index">
+		<img class="full-image" ng-src="{{item.img}}">
+		<p>{{item.text}}</p>
+		<span>{{item.content}}</span>
+		<span>{{item.end}}</span>
+	</div>
+</div>

@@ -1,0 +1,35 @@
+
+<ion-content class="content">
+	<div class="head">
+		<button class="button button-clear" ng-click="goPage()">设置</button>
+		<button class="button button-clear icon ion-ios-bell-outline fr"></button>
+
+		<div class="picture">
+			<img src="./images/img/tx_gerenziliao@2x.png">
+		</div>	
+		<p>Qo喵了个咪oQ</p>
+		
+	</div>
+
+	<p class="p"  ng-click="one()"><span>我的订单</span><span class="two fr">查看所有订单&nbsp;<img src="./images/icons/gengduo@2x.png" class="fr"></span></p>
+
+	<div class="row list">
+		<div class="col col-25" ng-repeat="item in list track by $index">
+			<img ng-src="{{item.img}}">
+			<p>{{item.p}}</p>
+		</div>
+	</div>
+
+	<div class="list">
+		<div class="item one" ng-repeat="item in listTwo track by $index">
+			<img ng-src="{{item.img}}" class="fl">
+			<p><span class="ag fl">{{item.text}}</span><img src="{{item.z}}" class="fr"></p>
+		</div>
+	</div>
+</ion-content>
+
+<ion-tabs class="tabs-balanced tabs-icon-top foot">
+
+	<ion-tab ng-repeat="item in data track by $index" title="{{item.three}}" icon-on="{{item.one}}" icon-off="{{item.two}}" ui-sref="{{item.url}}">
+	  </ion-tab>
+</ion-tabs>

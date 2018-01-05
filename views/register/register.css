@@ -1,0 +1,46 @@
+.head{
+	background-color: #7aa23f;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+.content .slt{
+	border: 0;
+    margin-right: 20px;
+}
+.content .btn{
+	background-color: #c6de7e;
+	font-size: 23px;
+	color:#fff;
+}
+.content p{
+	padding:0 10px;
+}
+.content label{
+	border: 1px solid #a9a9a9;
+	margin-top: 20px;
+}
+.content .line{
+	border:0;
+}
+.content .line>input{
+	border:0;
+}
+.content h4{
+	padding: 41px 0;
+	text-align: center;
+}
+.content .success{
+	background-color: #7aa23f;
+	margin-top: 175px;
+	font-size: 23px;
+	color:#fff;
+}
+.content p .end{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}

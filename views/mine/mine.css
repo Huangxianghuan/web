@@ -1,0 +1,66 @@
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+
+.head{
+	background: url(../../images/img/bg.png);
+	background-size: 100% 100%;
+}
+.head .picture{
+	width: 100px;
+	margin:0 auto;
+
+}
+.head .picture>img{
+	display: block;
+	width: 100%;	
+}
+.head .button{
+	color: #fff;
+	font-size: 20px;
+}
+.head>p{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.p{
+	font-size: 20px;
+	padding:0 20px;
+	line-height: 30px;
+}
+.p .two{
+	font-size: 18px;
+	color: #363535;
+}
+.p .two>img{
+	margin-left: 10px;
+}
+.list{
+	    text-align: center;
+	    font-size: 18px;
+	    margin-bottom: 0;
+	    padding: 0;
+}
+.one{
+	    padding: 8px 16px;
+}
+.one>img{
+	display: block;
+	width: 45px;
+	margin-right: 10px;
+}
+.one>p{
+	line-height: 45px;
+	color: #000;
+	font-size: 20px;
+}
+
+.content{
+	margin-bottom: 50px;
+}

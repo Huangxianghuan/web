@@ -1,0 +1,23 @@
+<!-- 头部 -->
+	<ion-header-bar class="bar bar-header bar-balanced">
+		<button class="button button-icon icon ion-qr-scanner"></button>
+		<div class="item-input-wrapper">
+			<i class="icon ion-android-search placeholder-icon"></i>
+			<input type="text" placeholder="真丝蚕丝被">
+		</div>
+		
+		<button class="button button-icon icon ion-ios-bell-outline"></button>
+	</ion-header-bar>
+
+<!-- 内容 -->
+
+	<ion-content  class="margin_bottom">
+		<div ui-view></div>
+	</ion-content>
+
+<!-- 底部 -->
+	<ion-tabs class="tabs-balanced tabs-icon-top" >
+
+	  <ion-tab ng-repeat="item in data track by $index" title="{{item.three}}" icon-on="{{item.one}}" icon-off="{{item.two}}" ui-sref="{{item.url}}">
+	  </ion-tab>
+	</ion-tabs>

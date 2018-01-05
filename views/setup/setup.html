@@ -1,0 +1,29 @@
+<ion-header-bar align-title="left" class="head">
+	<div class="button button-clear" ng-click="backd()">
+		<i class="icon ion-ios-arrow-left"></i>
+	</div>
+	<h2 class="title">设置</h2>
+	<div class="button button-clear">
+		<i class="icon ion-ios-more"></i>
+	</div>
+</ion-header-bar>
+
+<ion-content class="content">
+	<div class="list" >
+		<div class="item row lie" ng-repeat="item in data track by $index">
+			<div class="col col-20">
+				<img class="full-image" ng-src="{{item.img}}">
+			</div>
+			<div class="col">
+				<p ui-sref="{{item.url}}">
+					{{item.text}}
+					<i class="icon ion-chevron-right fr"></i>
+				</p>
+			</div>
+		</div>
+	</div>
+</ion-content>
+
+<ion-footer-bar class="bar-assertive">
+	<h2 class="title">退出当前账户</h2>
+</ion-footer-bar>

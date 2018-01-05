@@ -1,0 +1,70 @@
+.right{
+	width: 170px;
+}
+.ai{
+	float: right;
+}
+.box .left{
+	width: 40%;
+	display: inline-block;
+}
+.box .left>img{
+
+}
+.box .right{
+	width: 60%;
+	display: inline-block;
+	float: right;
+    padding-left: 10px;
+}
+.box .right>p{
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.box .right span{
+	font-size: 20px;
+	color: red;
+}
+.box .right span:last-child{
+	float: right;
+	margin-right: 5px;
+	color: #000;
+	font-size: 16px;
+}
+.content{
+	margin-bottom: 100px;
+}
+
+.totla{
+	width: 100%;
+	padding: 0 15px;
+	position:fixed;
+	left: 0;
+	bottom: 50px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.totla .left{
+	width: 40%;
+	float: left;
+}
+.totla .left label{
+	border: 0;
+}
+.totla .right{
+	width: 60%;
+	float: right;
+}
+.totla .right>p{
+	display: inline-block;
+	font-size: 20px;	
+	line-height: 47px;
+}
+.totla .right p>span{
+	color: red;
+}
+
+.totla .right>button{
+	float: right;
+}

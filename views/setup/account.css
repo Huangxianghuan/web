@@ -1,0 +1,38 @@
+.fr{
+	float: right
+}
+.head{
+	background-color: #7aa23f;
+	margin-bottom: 20px;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+
+.content{
+	background-color: #eeeeee;
+	margin-top: 20px;
+}
+.content span{
+	line-height: 45px;
+	font-size: 16px;
+	color: #000;
+}
+.content button{
+	margin-top:5px;
+}
+.content i{
+	line-height: 45px;
+	font-size: 12px;
+}
+.content .top{
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right: 60px;
+}
+.content .five{
+	margin-top: 20px;
+}

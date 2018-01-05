@@ -1,0 +1,33 @@
+<ion-header-bar class="head">
+	<div class="button button-clear">
+		<i class="icon-left ion-chevron-left"></i>
+	</div>
+</ion-header-bar>
+<ion-content class="content">
+	<h3 class="text-center">登录</h3>
+	<div class="list ipt">
+		<label class="item item-input">
+			<span class="input-label">帐号</span>
+			<input type="text" name="user" ng-model="user" required placeholder="用户名/邮箱/手机号">
+		</label>
+		<label class="item item-input">
+			<span class="input-label">密码</span>
+			<input type="text" name="" placeholder="请输入密码">
+		</label>
+
+	</div>
+	<div class="button button-block btn" ng-click="home()">登录</div>
+	<div class="row">
+		<div class="col col-75" ng-click="page()">手机快速注册</div>
+		<div class="col">忘记密码</div>
+	</div>
+	<div class="row picture">
+		<div class="col col-25">
+			<img class="full-image" src="./images/icons/qq.png">
+		</div>
+		<div class="col col-25 col-offset-50">
+			<img class="full-image" src="./images/icons/wixin.png">
+		</div>
+	</div>
+	<p class="text-center">登录即代表您已同意大地蓝隐私政策</p>
+</ion-content>

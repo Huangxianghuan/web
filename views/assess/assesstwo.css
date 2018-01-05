@@ -1,0 +1,22 @@
+.head{
+	background-color: #000;
+}
+.head>.jt{
+	color: #fff;
+}
+.head>h1{
+	color: #fff;
+}
+.content{
+	background-color: #000;
+}
+.picture{
+	padding: 15px 10px;
+}
+.foot{
+	padding: 0 10px;
+}
+.foot>p{
+	color: #fff;
+
+}

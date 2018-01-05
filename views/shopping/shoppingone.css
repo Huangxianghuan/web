@@ -1,0 +1,40 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.left{
+	width: 100px;
+}
+
+.left img{
+	display: block;
+    width: 100%;
+}
+.right{
+	width: 175px;
+}
+.right>p{
+	margin-bottom: 10px;
+}
+.one{
+	color: #284005;
+	font-size: 18px;
+	border-bottom: 1px solid #bababa;
+}
+.top{
+	border-bottom: 1px solid #bababa;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.two{
+	border-bottom: 1px solid #284005;
+	width: 100%;
+	text-align: right;
+	padding: 5px 0
+}
+.bottom{
+	clear: both;
+	text-align: right;
+}

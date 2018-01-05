@@ -1,0 +1,84 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.head{
+	position: relative;
+}
+.head .car{
+	position: absolute;
+	right: 50px;
+}
+.assess{
+	background-color: #7aa23f;
+	padding: 5px 5px;
+	color: #fff;
+}
+.sg>div{
+	margin: 5px 0;
+}
+.sg div>span{
+	border:1px solid #7aa23f;
+	border-radius: 5px;
+	padding: 5px;
+}
+.top{
+	padding: 0 10px;
+	border-bottom: 1px solid #7aa23f;
+}
+
+.list .sp{
+	color: #9c9d9c;
+	font-size: 14px
+}
+.list>div{
+	border: 0;
+}
+.list div>p{
+	text-align: right;
+}
+.list>p{
+	margin-top: 10px;
+	font-size:18px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.content{
+	margin-bottom:50px;
+}
+.fot{
+	position: relative;
+}
+.btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.line{
+	position: relative;
+}
+.content .tk{
+	width: 120px;
+	font-size: 18px;
+	background-color: #fff;
+	z-index: 3;
+	position: absolute;
+	right: 0;
+	top: -8px;
+}
+.content .tk li{
+	border-bottom: 1px solid #bfbfc1;
+	padding: 5px 0;
+}
+.content .tk i{
+	margin-right: 20px; 
+}
+.content .product{
+	border:0;
+}

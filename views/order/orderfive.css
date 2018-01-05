@@ -1,0 +1,55 @@
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.head{
+	background-color: #7aa23f;
+	margin-bottom: 20px;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+
+.content .title{
+	margin-bottom: 0;
+}
+.content .fbt{
+	color: #f00;
+}
+.content .li .h4{
+	padding-left: 20px;
+}
+.content .li .er{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.content .li button{
+	padding:5px 15px;
+	border: 1px solid #b5b5b5;
+	background-color: #fff;
+}
+.content .li .price{
+	padding-top: 15px;
+}
+.content .li .price .left{
+	font-size: 18px;
+	color: #f00;
+}
+.content .li .p{
+	margin: 0 10px;
+}
+.content .li .p .freight{
+	color:#aba9a9;
+}
+.content .li .p .a{
+	color: #f00;
+}
+.content .li .foot .red{
+	background-color: #de2f18;
+	color: #fff;
+}

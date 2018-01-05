@@ -1,0 +1,20 @@
+.fr{
+	float: right
+}
+.head{
+	background-color: #7aa23f;
+	margin-bottom: 20px;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+.content i{
+	font-size: 12px;
+}
+
+.content .two{
+	margin-top: 20px;
+}

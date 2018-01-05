@@ -1,0 +1,60 @@
+.fr{
+	float: right;
+}
+.head{
+	background-color: #7aa23f;
+	margin-bottom: 20px;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+.content .top{
+	border-bottom: 2px dashed #7aa23f;
+}
+.content .h4{
+	padding-left: 30px;
+	margin:5px 0;
+}
+.content .list a{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.content .list a h3{
+	margin-bottom: 10px;
+}
+.content .list a p{
+	margin-bottom: 10px;
+}
+.content .list a p .left{
+	color: #f00;
+}
+.content .list>div{
+	padding-top: 8px;
+	padding-bottom:8px;
+}
+.content .red{
+	color: #f00;
+	font-size: 16px;
+}
+.content .ckb{
+	padding-left: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.content .ckb i{
+	float: right;
+}
+
+.content .foot{
+	padding-right: 20px;
+}
+.content .foot .nice{
+	background-color: #de2f18;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 10px;
+	padding:5px;
+}

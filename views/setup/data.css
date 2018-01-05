@@ -1,0 +1,33 @@
+.fr{
+	float: right
+}
+.head{
+	background-color: #7aa23f;
+	margin-bottom: 20px;
+}
+.head i{
+	color: #fff;
+}
+.head h2{
+	color: #fff;
+}
+.content{
+	background-color: #eeeeee;
+	margin-top: 20px;
+}
+.content span{
+	line-height: 66px;
+	font-size: 20px;
+	color: #000;
+}
+.content button{
+	margin-top:22px;
+}
+.content i{
+	line-height: 66px;
+	font-size: 20px;
+}
+.content .top{
+	padding-top: 5px;
+	padding-bottom:5px;
+}

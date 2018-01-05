@@ -1,0 +1,36 @@
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.on{
+	text-align: center;
+	padding: 50px 0;
+	border-bottom: 1px solid #284005;
+	position: relative;
+}
+.on .picture{
+	width: 80px;
+	margin:0 auto;
+}
+.on .picture>img{
+	display: block;
+	width: 100%;
+}
+.on .btn{
+	width: 140px;
+	position: absolute;
+	bottom:-12px;
+	left: 90px;
+	background-color: #fff;
+}
+.on .btn>div{
+    display: inline-block;
+}
+.on .btn>span{
+	font-size: 20px;
+}
+.list>p{
+	font-size: 12px;
+}

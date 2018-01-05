@@ -1,0 +1,62 @@
+﻿
+<ion-header-bar class="bar-balanced">
+	<h1 class="title">购物车(18)</h1>
+	<button class="button button-clear">编辑</button>
+	<button class="button button-clear icon-right ion-ios-bell-outline"></button>
+</ion-header-bar>
+
+
+<!-- 内容 -->
+<ion-content class="content">
+	<ion-list class="checkbox-assertive" ng-repeat="item in list track by $index">
+		<!-- 第一列 -->
+			 <ion-checkbox ng-model="item.isSelected" ng-checked="item.isSelected" ng-click="change(item.isSelected,$index)">
+
+				<span>{{item.text}}&nbsp;&nbsp;<i class="icon ion-ios-arrow-forward"></i></span>
+				<span class="ai">{{item.content}}</span>
+			 </ion-checkbox>
+			 <ion-checkbox ng-model="filter.blue">
+				<div class="box">
+					<div class="left">
+						<img class="full-image" ng-src="{{item.img}}">
+					</div>
+					<div class="right">
+						<h2>{{item.h2}}</h2>
+						<p>{{item.p}}</p>
+						<span>{{item.num}}</span>
+						<span>{{item.dj}}</span>
+					</div>
+				</div>
+			 </ion-checkbox>
+
+	</ion-list>
+</ion-content>
+
+<!-- 底部 -->
+
+<div class="totla">
+	<div class="left">
+		<ion-list class="checkbox-assertive" >
+			<ion-checkbox ng-click="check()" ng-model="a" checked="{{a}}">
+				全选
+			</ion-checkbox>	
+		</ion-list>
+	</div>
+	<div class="right">
+		<p><span class="one"></span>合计:&nbsp;￥<span>{{sum}}</p>
+		<button class="button button-assertive" ng-click="">结算</button>
+	</div>
+</div>
+
+<ion-tabs class="tabs-balanced tabs-icon-top">
+
+
+  <ion-tab ng-repeat="item in data track by $index" title="{{item.three}}" icon-on="{{item.one}}" icon-off="{{item.two}}" ui-sref="{{item.url}}">
+	  </ion-tab>
+
+</ion-tabs>
+
+
+
+
+
